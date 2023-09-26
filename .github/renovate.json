@@ -5,15 +5,6 @@
   "regexManagers":[
     {
       "fileMatch":[
-        "^\\.github\\/workflows\\/.*\\.yml"
-      ],
-      "matchStrings":[
-        "terraform_version: (?<currentValue>.*?)\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
-     ],
-     "extractVersionTemplate": "^v(?<version>.*)$"
-    },
-    {
-      "fileMatch":[
         "^terraform\\/variables.tf"
       ],
       "matchStrings":[
