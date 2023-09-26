@@ -17,7 +17,7 @@
         "^terraform\\/variables.tf"
       ],
       "matchStrings":[
-        "default\\s*= \\"(?<currentValue>.*?)\\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
+        "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
