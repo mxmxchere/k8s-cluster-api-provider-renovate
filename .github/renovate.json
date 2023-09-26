@@ -14,7 +14,7 @@
     },
     {
       "fileMatch":[
-        "^\\terraform\\/variables.tf"
+        "^terraform\\/variables.tf"
       ],
       "matchStrings":[
         "default    = (?<currentValue>.*?)\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
