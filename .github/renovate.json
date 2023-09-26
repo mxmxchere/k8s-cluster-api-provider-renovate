@@ -5,10 +5,11 @@
   "regexManagers":[
     {
       "fileMatch":[
-        "^terraform\\/variables.tf"
+        "^terraform\\/variables.tf","^doc\\/configuration.md"
       ],
       "matchStrings":[
-        "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
+        "default\\s*= \"(?<currentValue>.*?)\"\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n",
+        "`(?<currentValue>.*?)`\\s* <!-- renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?) -->"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
