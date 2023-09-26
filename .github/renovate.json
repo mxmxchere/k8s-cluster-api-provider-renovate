@@ -11,13 +11,10 @@
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
   ],
-  {
   "packageRules": [
     {
       "matchPackageNames": ["angular"],
       "allowedVersions": "<=1.5"
     }
   ]
-}
-
 }
