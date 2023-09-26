@@ -1,5 +1,6 @@
 {
   "commitBody": "Signed-off-by: SCS Renovate Bot <renovatebot@scs.community>",
+  "dependencyDashboard": "true",
   "regexManagers":[
     {
       "fileMatch":[
