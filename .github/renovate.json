@@ -1,8 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ],
-  "commitBody": "Signed-off-by: Renovate Bot <bot@renovateapp.com>",
+  "commitBody": "Signed-off-by: SCS Renovate Bot <renovatebot@scs.community>",
   "regexManagers":[
     {
       "fileMatch":[
@@ -13,5 +10,14 @@
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
     }
+  ],
+  {
+  "packageRules": [
+    {
+      "matchPackageNames": ["angular"],
+      "allowedVersions": "<=1.5"
+    }
   ]
+}
+
 }
