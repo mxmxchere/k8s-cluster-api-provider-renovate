@@ -1,6 +1,7 @@
 {
   "commitBody": "Signed-off-by: SCS Renovate Bot <renovatebot@scs.community>",
   "dependencyDashboard": "true",
+  "enabledManagers": ["regex"],
   "regexManagers":[
     {
       "fileMatch":[
@@ -10,12 +11,6 @@
         "terraform_version: (?<currentValue>.*?)\\s*# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\n"
      ],
      "extractVersionTemplate": "^v(?<version>.*)$"
-    }
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["angular"],
-      "allowedVersions": "<=1.5"
     }
   ]
 }
